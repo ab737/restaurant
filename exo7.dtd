@@ -1,0 +1,38 @@
+
+<!--Exo 7-->
+
+<!ELEMENT Restaurent (coordonnees, carte+, listemenu)>
+<!ATTLIST Restaurent validation CDATA #REQUIRED>
+
+<!-- Bloc coordonnees -->
+<!ELEMENT coordonnees (nom, adresse, nomrestaurateur,description?)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT adresse (#PCDATA)>
+<!ELEMENT nomrestaurateur (#PCDATA)>
+
+<!ELEMENT description ((liste|paragraphe|texte_important)*,image)>
+<!ELEMENT liste (#PCDATA)>
+<!ELEMENT texte_important (#PCDATA)>
+
+<!ELEMENT paragraphe (texte,image*) >
+<!ELEMENT texte (#PCDATA)>
+<!ELEMENT image EMPTY>
+<!ATTLIST image place ENUMERATION(droite | gauche | centre) #REQUIRED>
+<!NOTATION image url CDATA #REQUIRED>
+
+<!-- Bloc carte -->
+<!ELEMENT carte (plat+)>
+<!ATTLIST plat indication (entrée | dessert | plat |fromage) #REQUIRED>
+<!ELEMENT description_plat (paragraphe)>
+<!ELEMENT paragraphe (partie*)>
+<!ELEMENT partie (#PCDATA)>
+<!ELEMENT prix EMPTY>
+<!ATTLIST prix valeur CDATA #REQUIRED
+               devise CDATA #REQUIRED>
+
+<!-- Bloc liste menu -->
+<!ELEMENT listemenu (titre,description,prix ,element+)>
+<!ATTLIST listemenu ordre (titre | apparition) #REQUIRED>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT prix CDATA #REQUIRED>

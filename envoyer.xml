@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurants>
+	<restaurant validation="false">
+		<coordonnees>
+			<nom>Nom</nom>
+			<adresse>Adresse</adresse>
+			<nomrestaurateur>nomrestaurateu</nomrestaurateur>
+			<descsription>
+				<paragraphe>desccoor</paragraphe>
+				<image place="droite">url</image>
+			</descsription>
+		</coordonnees>
+		<carte>
+			<plat indication="dessert">
+				<description_plat>desc plat</description_plat>
+				<prixplat valeur="111" devise="euro"/>
+			</plat>
+		</carte>
+		<listemenu ordre="titre">
+			<titre>titre</titre>
+			<description>desc menu</description>
+			<prix>4</prix>
+		</listemenu>
+	</restaurant>
+		<restaurant validation="true">
+		<coordonnees>
+			<nom>Abdu</nom>
+			<adresse>Adresse</adresse>
+			<nomrestaurateur>nomrestaurateu</nomrestaurateur>
+			<descsription>
+				<paragraphe>desccoor</paragraphe>
+				<image place="droite">url</image>
+			</descsription>
+		</coordonnees>
+		<carte>
+			<plat indication="dessert">
+				<description_plat>desc plat</description_plat>
+				<prixplat valeur="111" devise="euro"/>
+			</plat>
+		</carte>
+		<listemenu ordre="titre">
+			<titre>titre</titre>
+			<description>desc menu</description>
+			<prix>4</prix>
+		</listemenu>
+	</restaurant>
+<restaurant validation="true"><coordonnees><nom>pape</nom><adresse>Rue 6</adresse><nomrestaurateur>pizzeria</nomrestaurateur><descsription><paragraphe>                 pour pizza             </paragraphe><image place="droite">url</image></descsription></coordonnees><carte><plat indication="entree"><description_plat>salade de fruit</description_plat><prixplat>11</prixplat></plat></carte><listemenu ordre="prix"><titre>menu</titre><description>description menu</description><prix>67</prix></listemenu></restaurant><restaurant validation="true"><coordonnees><nom>DIOP</nom><adresse>Mariste</adresse><nomrestaurateur>Papis</nomrestaurateur><descsription><paragraphe>                              Bon restaurant</paragraphe><image place="droite">q,kaka,</image></descsription></coordonnees><carte><plat indication="entree"><description_plat>ajiajsja</description_plat><prixplat>1</prixplat></plat></carte><listemenu ordre="titre"><titre>jndzdjz</titre><description>,cc, c</description><prix>11</prix></listemenu></restaurant><restaurant validation="true"><coordonnees><nom>eekdnejkd</nom><adresse>e fefje </adresse><nomrestaurateur/><descsription><paragraphe>        ednejken                      </paragraphe><image place="droite">pp.jpg</image></descsription></coordonnees><carte><plat indication="entree"><description_plat>edk,edke</description_plat><prixplat>124</prixplat></plat></carte><listemenu ordre="prix"><titre>1500</titre><description>JENDZJDZND</description><prix>1500</prix></listemenu></restaurant><restaurant validation="true"><coordonnees><nom>Fall</nom><adresse>Medina</adresse><nomrestaurateur>Pape Ousseyn Diop</nomrestaurateur><descsription><paragraphe>            Restaurant qui prepare de bons plats                  </paragraphe><image place="droite">restau1.jpg</image></descsription></coordonnees><carte><plat indication="entree"><description_plat>ajiajsja</description_plat><prixplat>12</prixplat></plat></carte><listemenu ordre="titre"><titre>Restau</titre><description>ajjaj</description><prix>13</prix></listemenu></restaurant></restaurants>
